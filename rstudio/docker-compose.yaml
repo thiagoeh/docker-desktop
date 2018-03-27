@@ -1,0 +1,7 @@
+version: "3"
+services:
+    rstudio:
+        ports:
+            - '8787:8787'
+        container_name: rstudio
+        image: rocker/rstudio
