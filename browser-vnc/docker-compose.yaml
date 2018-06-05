@@ -1,0 +1,10 @@
+version: '3'
+services:
+	centos-xfce-vnc:
+		ports:
+			- '5901:5901'
+			- '6901:6901'
+		environment:
+			- VNC_RESOLUTION=800x600
+		image: consol/centos-xfce-vnc
+
